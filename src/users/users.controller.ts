@@ -14,6 +14,6 @@ export class UsersController {
           catchError((err) => {
             throw new RpcException(err);
           }),
-        );;
+        );
   }
 }
